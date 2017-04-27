@@ -1,0 +1,16 @@
+# Default values for route53-kubernetes.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+replicaCount: 1
+image:
+  repository: quay.io/molecule/route53-kubernetes
+  tag: v1.3.0
+  pullPolicy: IfNotPresent
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 16Mi
+

@@ -1,0 +1,4 @@
+apiVersion: v1
+description: updates route53 with custom domains
+name: route53-kubernetes
+version: 0.1.0
